@@ -59,12 +59,6 @@ class _ScheduleVisitScreenState extends State<ScheduleVisitScreen> {
                       5),
                   onTap: () async {
                     selectDate(slot1TimeController);
-                    // var date = await showDatePicker(
-                    //     context: context,
-                    //     initialDate: DateTime.now(),
-                    //     firstDate: DateTime(2000),
-                    //     lastDate: DateTime(2100));
-                    // slot1TimeController.text = date.toString();
                   },
                 ),
               ),
